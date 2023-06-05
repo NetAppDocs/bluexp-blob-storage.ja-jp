@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts 
+summary: Azure Blob Storageの作業環境がキャンバスに表示されたら、BlueXPから直接ストレージアカウントを追加できます。 
+---
+= Azure BLOBストレージアカウントを追加します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure Blob Storageの作業環境がキャンバスに表示されたら、BlueXPから直接ストレージアカウントを追加できます。
+
+.手順
+. キャンバスで、Azure Blob Storage作業環境をダブルクリックしてAzure Blob Storageの概要ページを表示し、*ストレージアカウントの追加*をクリックします。
++
+image:screenshot-add-blob-storage-button.png["Azure Blob Storage作業環境と[Add storage account]ボタンの詳細を示すスクリーンショット。"]
+
++
+ストレージアカウントの追加ページが表示されます。
+
++
+image:screenshot-add-blob-storage.png["独自のAzure BLOBストレージアカウントを作成できるように、[Add storage account]ページのスクリーンショット。"]
+
+. [_Project details_]セクションに必要な情報を入力します。
++
+[cols="25,75"]
+|===
+| フィールド | 説明 
+
+
+| サブスクリプション。 | 新しいストレージアカウントのAzureサブスクリプションを選択します。 
+
+
+| リソースグループ  a| 
+このストレージアカウントの既存のリソースグループを選択してください。
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["リソースグループの詳細については、こちらをご覧ください"^]。
+
+|===
+. [_Instance details_]セクションで、ストレージアカウントの名前を入力し、ストレージアカウントを作成するリージョン（複数可）を選択します。
++
+[cols="25,75"]
+|===
+| フィールド | 説明 
+
+
+| ストレージアカウント名 | ストレージアカウントに使用する名前を入力します。名前は3~24文字で指定し、数字と小文字のみを使用できます。 
+
+
+| Azure リージョン  a| 
+ストレージアカウントを作成するリージョンをリストから選択します。
+
+ストレージアカウントに適したリージョンを選択します。 https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["Azureのリージョンとアベイラビリティゾーンについては、Microsoftのドキュメントを参照してください"^]。
+
+すべてのタイプのストレージアカウントまたは冗長構成ですべてのリージョンがサポートされるわけではありません。 https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Azure Storageの冗長性については、Microsoftのドキュメントを参照してください"^]。
+
+また、リージョンの選択が課金に影響する場合があります。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Azure Storageアカウントの請求については、Microsoftのドキュメントを参照してください"^]。
+
+
+
+| パフォーマンスのタイプ  a| 
+パフォーマンスストレージとして* Standard *と* Premium *のどちらを使用するかを選択します。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["ストレージアカウントのタイプについては、Microsoftのドキュメントを参照してください"^]。
+
+** _Standard_Performanceは、汎用v2ストレージアカウントに使用されます。このタイプのアカウントは、ほとんどのシナリオで推奨されます。
+** _PREMIUM_PERFORMANCEは、低レイテンシが必要なシナリオに使用されます。プレミアムストレージアカウントには、Blob、File shares、Page Blobの3種類があります。
+
+
+|===
+. [Tags_]セクションには、リソースをグループ化するためのタグのキーと値のペアを最大10個入力できます。
++
+タグは、リソースをグループ化してアプリケーション、環境、リージョン、クラウドプロバイダなどを特定するためのメタデータです。ストレージアカウントにタグを追加して、オブジェクトがストレージアカウントに追加されたときにタグが適用されるようにすることができます。
+
++
+BlueXPで作成される新しいストレージアカウントでは、タグはデフォルトで無効になっています。 https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["タグ付けの詳細については、Microsoftのドキュメントを参照してください"^]。
+
+. [_Encryption_]セクションで、ストレージアカウントのデータへのアクセスを保護するために使用するデータ暗号化のタイプを選択します。
++
+[cols="25,75"]
+|===
+| データ暗号化タイプ | 説明 
+
+
+| Microsoftが管理するキー | デフォルトでは、Microsoftが管理する暗号化キーがデータの暗号化に使用されます。 
+
+
+| お客様が管理するキー  a| 
+Microsoftが管理するデフォルトの暗号化キーを使用する代わりに、お客様が管理する独自のキーをデータ暗号化に使用できます。お客様が管理する独自のキーを使用する場合は、このページでキーボールトとキーを選択できるように、それらのキーを作成しておく必要があります。
+
+キーは、ストレージアカウントと同じサブスクリプションに含めることも、別のサブスクリプションを選択することもできます。
+
+|===
++
+については、Microsoft Azureのドキュメントを参照してください https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Microsoftが管理するキーの詳細については、こちらを参照してください"^]および https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["カスタマー管理キーの詳細"^]。
+
+. [追加]*をクリックすると、バケットが作成されます。
+

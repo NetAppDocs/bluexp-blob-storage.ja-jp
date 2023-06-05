@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, limitations, known issues, enhancements, fixes' 
+summary: BlueXPのAzure Blob Storageの新機能をご紹介します。 
+---
+= BlueXPのAzure Blob Storageの新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPのAzure Blob Storageの新機能をご紹介します。
+
+
+
+== 2023年6月5日
+
+
+
+=== BlueXPから新しいストレージアカウントを追加できるようになりました
+
+BlueXP CanvasでAzure Blob Storageを表示できるようになりました。BlueXPから直接、新しいストレージアカウントを追加したり、既存のストレージアカウントのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["新しいAzure BLOBストレージアカウントを追加する方法をご覧ください"^]。

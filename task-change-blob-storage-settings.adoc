@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment 
+summary: Azure Blob Storageの作業環境がCanvasで利用できるようになったら、一部のストレージアカウントのプロパティをBlueXPから直接変更できます。 
+---
+= Azure BLOBストレージアカウントの設定を変更します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure Blob Storageの作業環境がCanvasで利用できるようになったら、一部のストレージアカウントのプロパティをBlueXPから直接変更できます。
+
+ストレージのアカウント名、Azureリージョン、パフォーマンスタイプは変更できません。
+
+変更できるストレージアカウントのプロパティには、次のものがあります。
+
+* ストレージアカウントのサブスクリプションとリソースグループ。
+* ストレージアカウントに追加されたオブジェクトのタグを追加、変更、または削除します。
+* ストレージアカウントに追加された新しいオブジェクトを暗号化するかどうか、および暗号化に使用するオプション。
+
+
+これらのストレージアカウント設定は、をクリックしてBlueXPから直接変更できます image:button-horizontal-more.gif["3つの点の詳細ボタン"] ストレージアカウントの場合。
+
+image:screenshot-edit-azure-blob-storage.png["BlueXPからストレージアカウントのプロパティを編集する方法を示すスクリーンショット。"]
+
+
+
+== プロジェクトの詳細を変更します
+
+[_Project details_]セクションで、ストレージアカウントのサブスクリプションとリソースグループを変更できます。
+
+[cols="25,75"]
+|===
+| フィールド | 説明 
+
+
+| サブスクリプション。 | ストレージアカウント用に別のAzureサブスクリプションを選択してください。 
+
+
+| リソースグループ  a| 
+ストレージアカウントに別のリソースグループを選択してください。
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["リソースグループの詳細については、こちらをご覧ください"^]。
+
+|===
+[保存]*をクリックして、ストレージアカウントへの変更を保存します。
+
+
+
+== ストレージアカウント内のオブジェクトのタグを追加または変更します
+
+Tags_セクションでは、最大10個のタグキーと値のペアを追加できます。また、タグキーと値のペアを変更または削除することもできます。タグは、ストレージアカウントに追加されたオブジェクトに適用されます。さらにタグを追加する場合は、*[新しいタグの追加]*をクリックします。
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["タグ付けの詳細については、Microsoftのドキュメントを参照してください"^]。
+
+[保存]*をクリックして、ストレージアカウントへの変更を保存します。
+
+
+
+== 暗号化設定を変更します
+
+[_Encryption_]セクションで、ストレージアカウントのデータへのアクセスの保護に使用するデータ暗号化のタイプを変更できます。
+
+[cols="25,75"]
+|===
+| データ暗号化タイプ | 説明 
+
+
+| Microsoftが管理するキー | デフォルトでは、Microsoftが管理する暗号化キーを使用してデータが暗号化されます。 
+
+
+| お客様が管理するキー  a| 
+Microsoftが管理するデフォルトの暗号化キーを使用する代わりに、お客様が管理する独自のキーをデータ暗号化に使用できます。お客様が管理する独自のキーを使用する場合は、このページでキーボールトとキーを選択できるように、それらのキーを作成しておく必要があります。
+
+キーは、ストレージアカウントと同じサブスクリプションに含めることも、別のサブスクリプションを選択することもできます。
+
+|===
+については、Microsoft Azureのドキュメントを参照してください https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Microsoftが管理するキーの詳細については、こちらを参照してください"^]および https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["カスタマー管理キーの詳細"^]。
+
+[保存]*をクリックして、ストレージアカウントへの変更を保存します。

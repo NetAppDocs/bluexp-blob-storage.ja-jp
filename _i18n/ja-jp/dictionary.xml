@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="743c7f25a48e123c93c9fc954e6a69df" category="summary">BlueXPでAzure BLOBストレージアカウントを検出したら、NetAppデータサービスを使用してバックアップ、階層化、データ同期を実行できます。</block>
+  <block id="6650dfeb4f458c61b2949845625bd24c" category="doc">Azure BLOBストレージでNetAppデータサービスを使用</block>
+  <block id="e6e0b633b845f7c0c3fc71f173437b03" category="list-text">BlueXPのバックアップとリカバリ*を使用して、オンプレミスのONTAPシステムやCloud Volumes ONTAPシステムからAzure Blobストレージにデータをバックアップできます。</block>
+  <block id="442bfbf1f9546a9fb635d30d65fd2e38" category="paragraph">作業を開始するには、キャンバスに移動し、オンプレミスのONTAPまたはCloud Volumes ONTAP作業環境をAzure Blob Storage作業環境にドラッグアンドドロップします。</block>
+  <block id="d86f0808bf63647bc6d2990fee15f32a" category="inline-link">Azure BlobストレージへのONTAPデータのバックアップの詳細については、こちらをご覧ください</block>
+  <block id="95af42d58740cb6ef9743795caced435" category="paragraph"><block ref="a81ea9edabd79d5dc24a3011f7940a63" category="inline-link-rx"></block>。</block>
+  <block id="63f3e74eeee9f04ec668e4399d129162" category="list-text">BlueXP階層化*を使用して、アクセス頻度の低いデータをオンプレミスのONTAPクラスタからAzure BLOBストレージに階層化できます。</block>
+  <block id="adc30510b853968343dc16be2c3fca2e" category="paragraph">作業を開始するには、キャンバスに移動し、オンプレミスのONTAP作業環境をAzure Blob Storage作業環境にドラッグアンドドロップします。</block>
+  <block id="683411769b2e2b5ee5d1c8ac476393d4" category="inline-link">ONTAPデータをAzure BLOBストレージに階層化する方法については、こちらをご覧ください</block>
+  <block id="f8f7dea78fa7518dbbdf96d1aafadc4b" category="paragraph"><block ref="55d91164053c84267300c3db4638255c" category="inline-link-rx"></block>。</block>
+  <block id="bd1ca733e727b0143ec41ba98ad1a403" category="list-text">BlueXPのコピーと同期*を使用して、Azure BLOBストレージアカウントとの間でデータを同期します。</block>
+  <block id="2a5f0d760cfbe4253bcb54de0d2cde55" category="paragraph">作業を開始するには、Canvasに移動し、ソースの作業環境をターゲットの作業環境にドラッグアンドドロップします。Azure Blob Storageの作業環境は、ソースでもターゲットでもかまいません。</block>
+  <block id="42d1653fc5d9859f80439839706f7ea8" category="paragraph">Azure Blob Storage作業環境を選択し、[サービス]パネルの*[コピーと同期]*をクリックして、Azure Blob Storageアカウントとの間でデータを同期することもできます。</block>
+  <block id="f850079a6ff3f16354189a6475029756" category="inline-link">BlueXPのコピーと同期サービスの詳細については、こちらをご覧ください</block>
+  <block id="f055b625ba659736f2f6aeb28ac2fd85" category="paragraph"><block ref="82a8e5397a3e5ca934b7faa7a2036870" category="inline-link-rx"></block>。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">ネットアップが所有する特許の最新リストは、次のサイトで入手できます。</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="3747d8dfb456f8cefbe5ea8eed8a4289" category="summary">AzureにConnectorをインストールすると、コネクタがインストールされているAzureサブスクリプションにあるAzureストレージアカウントに関する情報がBlueXPによって自動的に検出されます。Azure Blob作業環境がCanvasに追加され、この情報を表示できるようになりました。</block>
+  <block id="9a3a653da58394b22bef7791dd8554eb" category="doc">Azure BLOBストレージアカウントを表示します</block>
+  <block id="f0dff639751863195c8798ec50d78e1f" category="paragraph">Azureストレージアカウントの詳細（場所、リソースグループ、使用済み容量など）を確認できます。これらのアカウントは、BlueXPのバックアップとリカバリ、BlueXPの階層化、BlueXPのコピーと同期の処理のデスティネーションとして使用できます。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
+  <block id="9c626900b015a97ee8e428d66dd7d5d1" category="inline-link">コネクタを取り付ける</block>
+  <block id="0e44944c221a596a7fc38dacc5326a66" category="list-text"><block ref="c5bea0a4dae0af1b7ca8caf0fbeece74" category="inline-link-rx"></block> Azure BLOBストレージアカウントを表示するAzureアカウント。</block>
+  <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">ナビゲーションメニューから、*ストレージ&gt;キャンバス*を選択します。</block>
+  <block id="dc101ad0e6390465fa5bce8d97135abd" category="paragraph">しばらくすると、Azure Blob Storageの作業環境が自動的に表示されます。</block>
+  <block id="30ddc298ec0e33404d75f03d0a89fb7e" category="inline-image-macro">Azure Blob Storage作業環境のスクリーンショット。</block>
+  <block id="aba11789670e4988036d93374c45909e" category="paragraph"><block ref="aba11789670e4988036d93374c45909e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1566553cf93fe585b8097d74b9dc4864" category="list-text">Azure BLOBストレージでBlueXPサービスを有効にする場合は、作業環境を選択し、右側のペインから操作を選択します。</block>
+  <block id="0f77adf7252cfdb9cb509c3e208acd28" category="inline-image-macro">Azure Blob Storage作業環境を選択したあとの操作ウィンドウを示すスクリーンショット。ペインには、ストレージアカウントの総数と、BlueXPサービスを使用するための操作が表示されます。</block>
+  <block id="9fc5f6c30ad0e473c3bf02a59d61eff4" category="paragraph"><block ref="9fc5f6c30ad0e473c3bf02a59d61eff4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="36b96a8bdecc7bfd30c2216b826124e4" category="inline-link-macro">利用可能なBlueXPサービスを確認し、Azure Blob Storageアカウントでそれらのサービスを使用する方法を確認します</block>
+  <block id="6416aef048f157dbbc2f7a38e89b27a0" category="paragraph"><block ref="949ab7d9b56dc748387cf1c5cf5c1dbc" category="inline-link-macro-rx"></block>。</block>
+  <block id="501d85f5fcdff02a0103528a9a2df25f" category="list-text">Azureストレージアカウントに関する詳細を表示するには、*[Enter Working Environment]*を選択するか、作業環境をダブルクリックします。</block>
+  <block id="a86c127108bab4149c743e8d5cabb103" category="inline-image-macro">Azure Blob作業環境の詳細を示すスクリーンショット：ストレージアカウントの総数、場所の総数、リソースグループ、合計容量など。</block>
+  <block id="6dc35bdfca538d2f0fc6ac88fe404f66" category="paragraph"><block ref="6dc35bdfca538d2f0fc6ac88fe404f66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fe6cbd8a6e61161bb3e680f8276259b3" category="paragraph">デフォルトで表示される列に加えて、ページをスクロールしてストレージアカウントのその他のプロパティ（タグの数、有効になっている暗号化のタイプなど）を表示できます。</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次のステップ</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">3つの点の詳細ボタン</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">詳細については、こちらをご覧ください</block>
+  <block id="39024ccabb77e0462293183deef9addf" category="paragraph">ストレージアカウントの一部の設定は、をクリックしてBlueXPから直接変更できます <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> ストレージアカウントの場合。 <block ref="9c8d49d6625e6bf11b03ca72c09c01c2" category="inline-link-macro-rx"></block>。</block>
+  <block id="18ad681545ed7c047981ea0772213e8b" category="paragraph">新しいバケットを追加するには、*[ストレージアカウントの追加]*をクリックします。 <block ref="12b5c739b359c8d18d1137eb9ca164cd" category="inline-link-macro-rx"></block>。</block>
+  <block id="390778421c105428ef0687f3130c3d73" category="summary">BlueXPシステムでAzure BLOBストレージを使い始めましょう。</block>
+  <block id="3248c863cc0fef1b82096d4ead258a65" category="doc">Azure BLOBストレージのドキュメント</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">ネットアップでは、さまざまな方法でBlueXPをサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">ネットアップでは、BlueXPとその クラウド サービス をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">BlueXPナレッジベースで問題のトラブルシューティングに役立つ記事を検索します。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">お客様のご意見をお考えください。フィードバックを送信して、BlueXPの改善に役立ててください。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">始める前に</block>
+  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">BlueXPログインに関連付けられているクレデンシャルの管理方法について説明します</block>
+  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">[ケースの作成]*機能を使用するには、最初にNetApp Support SiteクレデンシャルをBlueXPログインに関連付ける必要があります。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>。</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">シリアル番号のあるONTAPシステムのケースをオープンする場合は、そのシステムのシリアル番号にNSSアカウントを関連付ける必要があります。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXPで、[ヘルプ]、[サポート]の順にクリックします。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">[ケースの作成]*をクリックして、ネットアップサポートスペシャリストとのチケットをオープンします。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル（オプション）*：一度に1つずつ、最大5つの添付ファイルをアップロードできます。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
+  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。次のいずれかのオプションを使用して、サポートを受けることができます。</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">サポートケースの管理（プレビュー）</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">アクティブなサポートケースと解決済みのサポートケースは、BlueXPから直接表示および管理できます。NSSアカウントと会社に関連付けられたケースを管理できます。</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">ケース管理はプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">ページ上部のケース管理ダッシュボードには、次の2つのビューがあります。</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側のビューには、指定したユーザNSSアカウントによって過去3カ月間にオープンされたケースの総数が表示されます。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側のビューには、ユーザのNSSアカウントに基づいて、過去3カ月間にオープンしたケースの総数が会社レベルで表示されます。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">テーブルの結果には、選択したビューに関連するケースが反映されます。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">目的の列を追加または削除したり、[優先度]や[ステータス]などの列の内容をフィルタリングしたりできます。他の列には、並べ替え機能だけがあります。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順を参照してください。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースノートを更新したり、ステータスが「Closed」または「Pending Closed」でないケースをクローズしたりすることができます。</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">[ケース管理]*をクリックし、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">ケース管理*ページには、BlueXPユーザアカウントに関連付けられたNSSアカウントに関連するオープンケースが表示されます。これは、* NSS管理*ページの上部に表示されるNSSアカウントと同じです。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">[Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。</block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">[Status]列のフィルタオプションのスクリーンショット。[Active]や[Closed]など、特定のステータスに一致するケースを除外できます。</block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">テーブルに表示されるプラスアイコン</block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">表に表示できる列を示すスクリーンショット。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">をクリックして既存のケースを管理します <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="401d4b50a9784db08819528baf4ff9d9" category="summary">BlueXPのAzure Blob Storageの新機能をご紹介します。</block>
+  <block id="aad23f60df7186058345e4103233ddbd" category="doc">BlueXPのAzure Blob Storageの新機能</block>
+  <block id="3bec690d07df1a3a36c8a3122654fc24" category="section-title">2023年6月5日</block>
+  <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">BlueXPから新しいストレージアカウントを追加できるようになりました</block>
+  <block id="a39e8d6ee8bc43ef75656b419fe7a86e" category="inline-link">新しいAzure BLOBストレージアカウントを追加する方法をご覧ください</block>
+  <block id="34738f8a469a7971575b53ff1435539f" category="paragraph">BlueXP CanvasでAzure Blob Storageを表示できるようになりました。BlueXPから直接、新しいストレージアカウントを追加したり、既存のストレージアカウントのプロパティを変更したりできるようになりました。<block ref="7f415337c5df45cbb7bfeb019667a476" category="inline-link-rx"></block>。</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
+  <block id="0c7db2bd63c891adb2c0fa4527805d72" category="paragraph">BlueXPアカウントと個 々 のCloud Volumes ONTAPシステムにサポートを登録する必要があります。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
+  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。登録を完了するには、以下の手順でNetApp Support Site（NSS）アカウントをBlueXPに追加してください。</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
+  <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">以下のクラウドプロバイダソリューションに関するテクニカルサポートについては、その製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 対応の Amazon FSX</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetAppサポートにBlueXPアカウントを登録します</block>
+  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXPアカウントの1人のユーザがNetApp Support SiteアカウントをBlueXPログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。</block>
+  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXPコンソールの右上にある[設定]アイコンをクリックし、[資格情報*]を選択します。</block>
+  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">[ユーザクレデンシャル]*をクリックします。</block>
+  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">[NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。</block>
+  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンをクリックし、*[サポート]*を選択します。</block>
+  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">[リソース]ページに、アカウントがサポートに登録されていることが表示されます。</block>
+  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。</block>
+  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXPアカウントがサポートに登録されていないわけではありません。アカウント内の1人のユーザーがこれらの手順を実行している限り、アカウントは登録されています。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
+  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">NetAppの既存のお客様で、ライセンスとシリアル番号は_NO_NSSアカウントしかお持ちでない場合は、NSSアカウントを作成してBlueXPログインに関連付ける必要があります。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">を実行してNetApp Support Site アカウントを作成します<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">必ず、上記のシリアル番号フィールドに使用されているBlueXPアカウントのシリアル番号(960xxxx)をコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">の手順を実行して、新しいNSSアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[*製品ライン*（Product Line *）]フィールドで、[* Cloud Manager *]を選択し、該当する課金プロバイダーを選択します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
+  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetApp Support Siteアカウントを作成したら、の手順を実行してアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートのためにNSSクレデンシャルを関連付けます</block>
+  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">NetApp Support Siteで次の主要なワークフローを有効にするには、BlueXPアカウントにクレデンシャルを関連付ける必要がCloud Volumes ONTAPあります。</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムのサポートを登録しています</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">お使いのシステムのサポートを有効にし、ネットアップのテクニカルサポートリソースにアクセスするには、 NSS アカウントを用意する必要があります。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">お客様所有のライセンスを使用（BYOL）する場合のCloud Volumes ONTAP の導入</block>
+  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">ライセンスキーをBlueXPでアップロードし、購入した契約期間のサブスクリプションを有効にするには、NSSアカウントを提供する必要があります。これには、期間の更新の自動更新も含まれます。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
+  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
+  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、NetApp Support Siteの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSSアカウントは、お客様レベルのアカウントである必要があります（ゲストアカウントや一時アカウントではありません）。複数のお客様レベルのNSSアカウントを設定できます。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSSアカウントがパートナーレベルのアカウントの場合、作成できるNSSアカウントは1つだけです。お客様レベルのNSSアカウントを追加しようとすると、パートナーレベルのアカウントが存在する場合は、次のエラーメッセージが表示されます。</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「別のタイプのNSSユーザーがすでに存在するため、このアカウントではNSS顧客タイプは許可されていません。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存のお客様レベルのNSSアカウントがあり、パートナーレベルのアカウントを追加しようとする場合も同様です。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインに成功すると、ネットアップはNSSのユーザ名を保存します。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平ドットのアイコン</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
+  <block id="87cd0eb22fbd81c94f997729f18f3ea1" category="summary">Azure Blob Storageの作業環境がキャンバスに表示されたら、BlueXPから直接ストレージアカウントを追加できます。</block>
+  <block id="3cb57c6170bd36ecc29e674339ffbc98" category="doc">Azure BLOBストレージアカウントを追加します</block>
+  <block id="f80b558b700a12852bbf77e95b688d65" category="list-text">キャンバスで、Azure Blob Storage作業環境をダブルクリックしてAzure Blob Storageの概要ページを表示し、*ストレージアカウントの追加*をクリックします。</block>
+  <block id="a18785945b80e8528388ca209c1d6dd2" category="inline-image-macro">Azure Blob Storage作業環境と[Add storage account]ボタンの詳細を示すスクリーンショット。</block>
+  <block id="2bd391e109cd7661fc09678ccabfbe88" category="paragraph"><block ref="2bd391e109cd7661fc09678ccabfbe88" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d4dcbffc28d157acf2d779535ea39e5" category="paragraph">ストレージアカウントの追加ページが表示されます。</block>
+  <block id="bf04df0a09965db404ac8255f46f224b" category="inline-image-macro">独自のAzure BLOBストレージアカウントを作成できるように、[Add storage account]ページのスクリーンショット。</block>
+  <block id="2ec7cbfa91de880af44acf67a5f1462e" category="paragraph"><block ref="2ec7cbfa91de880af44acf67a5f1462e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c2ed49d2a85251adbf8725c16c45ceb" category="list-text">[_Project details_]セクションに必要な情報を入力します。</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">フィールド</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
+  <block id="787ad0b7a17de4ad6b1711bbf8d79fcb" category="cell">サブスクリプション。</block>
+  <block id="297cc7b38642922e63d9c24e2ee9ffcf" category="cell">新しいストレージアカウントのAzureサブスクリプションを選択します。</block>
+  <block id="dde92bca1b59f0db813ef42a2688752e" category="cell">リソースグループ</block>
+  <block id="d1336732268253a419277477d356697a" category="paragraph">このストレージアカウントの既存のリソースグループを選択してください。</block>
+  <block id="b32c0d2df176fefd71be6c2adefbc180" category="inline-link">リソースグループの詳細については、こちらをご覧ください</block>
+  <block id="7ac86296fadeb1001aa3f5bbef887896" category="paragraph"><block ref="445f5298ad882f018cbc306156a1ebe2" category="inline-link-rx"></block>。</block>
+  <block id="ea60a88dc73681f072844c266feb470a" category="list-text">[_Instance details_]セクションで、ストレージアカウントの名前を入力し、ストレージアカウントを作成するリージョン（複数可）を選択します。</block>
+  <block id="f0a1afcc0650dae92930971db3ae3a1d" category="cell">ストレージアカウント名</block>
+  <block id="558e46bdb9949da37975f8388e28a597" category="cell">ストレージアカウントに使用する名前を入力します。名前は3~24文字で指定し、数字と小文字のみを使用できます。</block>
+  <block id="8d154dd14e0b151238dd0e49b65d9533" category="cell">Azure リージョン</block>
+  <block id="53c8664828c7264efef66eced9671dc2" category="paragraph">ストレージアカウントを作成するリージョンをリストから選択します。</block>
+  <block id="c0e40ff2b716a80cbc2fd16626d3f61e" category="inline-link">Azureのリージョンとアベイラビリティゾーンについては、Microsoftのドキュメントを参照してください</block>
+  <block id="40355867a264abf094a9aa779a75dd8f" category="paragraph">ストレージアカウントに適したリージョンを選択します。<block ref="abc87d23fc6c9f021e60756e2063dcc3" category="inline-link-rx"></block>。</block>
+  <block id="f203c4b479a5bcde0bc73db580e9f3d1" category="inline-link">Azure Storageの冗長性については、Microsoftのドキュメントを参照してください</block>
+  <block id="ff87f9fbf7898f496194f1980d48f4a2" category="paragraph">すべてのタイプのストレージアカウントまたは冗長構成ですべてのリージョンがサポートされるわけではありません。<block ref="bded912a08f603cb0260e0b6aa67ac71" category="inline-link-rx"></block>。</block>
+  <block id="3990a9fcdaa918091759458ba1a25c61" category="inline-link">Azure Storageアカウントの請求については、Microsoftのドキュメントを参照してください</block>
+  <block id="110a49b3ef49fc5f4692cff7fdb8718a" category="paragraph">また、リージョンの選択が課金に影響する場合があります。<block ref="7d719ff2031acb955e3bbd19c0a78d6b" category="inline-link-rx"></block>。</block>
+  <block id="102eb053f612f322d6cf12b730d38311" category="cell">パフォーマンスのタイプ</block>
+  <block id="019952a548f814654c4e6a303422b97a" category="inline-link">ストレージアカウントのタイプについては、Microsoftのドキュメントを参照してください</block>
+  <block id="51abeeefb299dcba3785b7f3cefdc22f" category="paragraph">パフォーマンスストレージとして* Standard *と* Premium *のどちらを使用するかを選択します。<block ref="873a6ab78f8c2b10225a89b561955b0f" category="inline-link-rx"></block>。</block>
+  <block id="1fe18ace05440ed78b22fa7bebf91aa4" category="list-text">_Standard_Performanceは、汎用v2ストレージアカウントに使用されます。このタイプのアカウントは、ほとんどのシナリオで推奨されます。</block>
+  <block id="728b4e5c0a4f62a5b33a5649ba2db610" category="list-text">_PREMIUM_PERFORMANCEは、低レイテンシが必要なシナリオに使用されます。プレミアムストレージアカウントには、Blob、File shares、Page Blobの3種類があります。</block>
+  <block id="8b967113821842e03de579c9069daf60" category="list-text">[Tags_]セクションには、リソースをグループ化するためのタグのキーと値のペアを最大10個入力できます。</block>
+  <block id="8fffdc96fdfcfdbc3aca184e2b8ca41a" category="paragraph">タグは、リソースをグループ化してアプリケーション、環境、リージョン、クラウドプロバイダなどを特定するためのメタデータです。ストレージアカウントにタグを追加して、オブジェクトがストレージアカウントに追加されたときにタグが適用されるようにすることができます。</block>
+  <block id="30e9a668dc19dece9cb3dd69e9b063d3" category="inline-link">タグ付けの詳細については、Microsoftのドキュメントを参照してください</block>
+  <block id="06e8f1a0be525e80936c6f5e40ec6327" category="paragraph">BlueXPで作成される新しいストレージアカウントでは、タグはデフォルトで無効になっています。<block ref="016aa5e7a76384df5543c00020bd0488" category="inline-link-rx"></block>。</block>
+  <block id="48ad81c476da7ce1819397078217ad4d" category="list-text">[_Encryption_]セクションで、ストレージアカウントのデータへのアクセスを保護するために使用するデータ暗号化のタイプを選択します。</block>
+  <block id="3603122b16ffebe244e1d0d7f1d34faa" category="cell">データ暗号化タイプ</block>
+  <block id="20c72b71b183c5eef4e98c53a89dcffa" category="cell">Microsoftが管理するキー</block>
+  <block id="6f9a295964454cb07657794f38c155a5" category="cell">デフォルトでは、Microsoftが管理する暗号化キーがデータの暗号化に使用されます。</block>
+  <block id="7e9a4d492051329215e26c7a9f847546" category="cell">お客様が管理するキー</block>
+  <block id="19cd180fa0b90f4870326704c4f3c4f9" category="paragraph">Microsoftが管理するデフォルトの暗号化キーを使用する代わりに、お客様が管理する独自のキーをデータ暗号化に使用できます。お客様が管理する独自のキーを使用する場合は、このページでキーボールトとキーを選択できるように、それらのキーを作成しておく必要があります。</block>
+  <block id="3af46610d84535bcb463b8926bbad9bf" category="paragraph">キーは、ストレージアカウントと同じサブスクリプションに含めることも、別のサブスクリプションを選択することもできます。</block>
+  <block id="bf9506c29548950a761acad26f68f805" category="inline-link">Microsoftが管理するキーの詳細については、こちらを参照してください</block>
+  <block id="518fa4ed7cef478f91e710fa235bf797" category="inline-link">カスタマー管理キーの詳細</block>
+  <block id="1c996ef0ac245038c210c7f6136b7a5f" category="paragraph">については、Microsoft Azureのドキュメントを参照してください<block ref="00b60a199735a6cd55c721820633fd18" category="inline-link-rx"></block>および<block ref="179ce78dfc1dee8d313bdcb48c576259" category="inline-link-rx"></block>。</block>
+  <block id="a213be5d3f4ac9e5115a58f090c817fa" category="list-text">[追加]*をクリックすると、バケットが作成されます。</block>
+  <block id="2116d1f1d05ca69b63fd0a51dbaa3c72" category="summary">Azure Blob Storageの作業環境がCanvasで利用できるようになったら、一部のストレージアカウントのプロパティをBlueXPから直接変更できます。</block>
+  <block id="e0bf28ffe622dd070176e4e84d686274" category="doc">Azure BLOBストレージアカウントの設定を変更します</block>
+  <block id="e4d20ea28e0dccf4440f8908211c905a" category="paragraph">ストレージのアカウント名、Azureリージョン、パフォーマンスタイプは変更できません。</block>
+  <block id="e7ed4bfb82f1066f906424570659dbe9" category="paragraph">変更できるストレージアカウントのプロパティには、次のものがあります。</block>
+  <block id="50ef0c48e3784c389a3eb1a1d713adf7" category="list-text">ストレージアカウントのサブスクリプションとリソースグループ。</block>
+  <block id="737f49f5c14b1caf292db3a6a483b522" category="list-text">ストレージアカウントに追加されたオブジェクトのタグを追加、変更、または削除します。</block>
+  <block id="781c08ce41f6fcf95d2d660f80be5e81" category="list-text">ストレージアカウントに追加された新しいオブジェクトを暗号化するかどうか、および暗号化に使用するオプション。</block>
+  <block id="b2a182f8adbc174b8a740512cb277066" category="paragraph">これらのストレージアカウント設定は、をクリックしてBlueXPから直接変更できます <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> ストレージアカウントの場合。</block>
+  <block id="daa27cb738bbb29a6ad45ccb56afa5e0" category="inline-image-macro">BlueXPからストレージアカウントのプロパティを編集する方法を示すスクリーンショット。</block>
+  <block id="0871b1e5ef360b95060e5ccc5ee85ffa" category="paragraph"><block ref="0871b1e5ef360b95060e5ccc5ee85ffa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="869eb1956c09b2f8ed60f3ca35970fbf" category="section-title">プロジェクトの詳細を変更します</block>
+  <block id="19b197bd0a78837ce4e03a124c64ed82" category="paragraph">[_Project details_]セクションで、ストレージアカウントのサブスクリプションとリソースグループを変更できます。</block>
+  <block id="feb48bb74d60f8176232bcb55b1deccd" category="cell">ストレージアカウント用に別のAzureサブスクリプションを選択してください。</block>
+  <block id="8ef21a42c9501fd64e52e3dec49f1962" category="paragraph">ストレージアカウントに別のリソースグループを選択してください。</block>
+  <block id="b8b1c1175a0784c5610ca1d7f10b3201" category="paragraph">[保存]*をクリックして、ストレージアカウントへの変更を保存します。</block>
+  <block id="7668db01dedac8d796487eff4668ade4" category="section-title">ストレージアカウント内のオブジェクトのタグを追加または変更します</block>
+  <block id="04fd447c986a8ef1d190065dc36fd53c" category="paragraph">Tags_セクションでは、最大10個のタグキーと値のペアを追加できます。また、タグキーと値のペアを変更または削除することもできます。タグは、ストレージアカウントに追加されたオブジェクトに適用されます。さらにタグを追加する場合は、*[新しいタグの追加]*をクリックします。</block>
+  <block id="80598dfcfb04cfe9ee89b3dd2435d966" category="paragraph"><block ref="ecb9289e48b99f9d8e4a15e023dafaa1" category="inline-link-rx"></block>。</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">暗号化設定を変更します</block>
+  <block id="8482b20813e2f73309385bb4bbb2d3b3" category="paragraph">[_Encryption_]セクションで、ストレージアカウントのデータへのアクセスの保護に使用するデータ暗号化のタイプを変更できます。</block>
+  <block id="02135eee51d89316848e37e7ea143077" category="cell">デフォルトでは、Microsoftが管理する暗号化キーを使用してデータが暗号化されます。</block>
+  <block id="f7075df207de578e65f65593c4432af6" category="sidebar">Azure BLOBストレージのドキュメント</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
+  <block id="d6e6988ac0c468e057a7e03d242d4482" category="sidebar">Azure BLOBストレージアカウントを管理します</block>
+  <block id="baf9c0d022fa9e7a85fa77eeb954adbd" category="sidebar">新しいストレージアカウントを追加します</block>
+  <block id="0143afd4b3b57a4efca22155b835b7f2" category="sidebar">ストレージアカウントの設定を変更します</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+  <block id="9268e6eddc40b903b8d17875688dc8fd" category="sidebar">BLOBストレージアカウントを追加します</block>
+  <block id="da76ba9e74fcf14ff7a78009d4a7c47f" category="sidebar">ストレージアカウント設定を変更します</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">詳細情報</block>
+  <block id="41b9f8b216812f58b88c6307251906c2" category="sidebar">BlueXP以外で管理するためのAzure BLOBストレージのドキュメント</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
+  <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP Webセミナー</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
+</blocks>

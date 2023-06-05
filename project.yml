@@ -1,0 +1,67 @@
+---
+settings:
+  name: Azure Blob storage
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: Azure BLOBストレージのドキュメント
+    url: "/index.html"
+  - title: リリースノート
+    url: "/whats-new.html"
+  - title: はじめに
+    entries:
+    - title: Azure BLOBストレージアカウントを表示します
+      url: "/task-view-azure-blob-storage.html"
+  - title: Azure BLOBストレージアカウントを管理します
+    entries:
+    - title: 新しいストレージアカウントを追加します
+      url: "/task-add-blob-storage.html"
+    - title: ストレージアカウントの設定を変更します
+      url: "/task-change-blob-storage-settings.html"
+    - title: Azure BLOBストレージでNetAppデータサービスを使用
+      url: "/task-blob-enable-data-services.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録します
+      url: "/task-support-registration.html"
+    - title: ヘルプを表示します
+      url: "/task-get-help.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: はじめに
+    links:
+    - title: Azure BLOBストレージアカウントを表示します
+      url: task-view-azure-blob-storage.html
+  - title: Azure BLOBストレージアカウントを管理します
+    links:
+    - title: BLOBストレージアカウントを追加します
+      url: task-add-blob-storage.html
+    - title: ストレージアカウント設定を変更します
+      url: task-change-blob-storage-settings.html
+    - title: Azure BLOBストレージでNetAppデータサービスを使用
+      url: task-blob-enable-data-services.html
+  - title: 詳細情報
+    links:
+    - title: BlueXP以外で管理するためのAzure BLOBストレージのドキュメント
+      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+  - title: ブログとコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXPブログ
+      url: https://bluexp.netapp.com/blog/topic/cloud-manager
+    - title: BlueXP Webセミナー
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: bluexp-family
+  sidebar_label: BlueXPのすべてのマニュアル

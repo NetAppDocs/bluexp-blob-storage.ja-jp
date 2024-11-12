@@ -1,5 +1,7 @@
 = BlueXPから新しいストレージアカウントを追加できるようになりました
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
